@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Ghalia Essaguia - Portfolio Élégant</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <span class="brand-dot"></span>
+                El Ghalia Essaguia
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- Section Hero / Accueil - avec photo personnelle agrandie -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="row min-vh-100 align-items-center">
+                    <div class="col-lg-6 order-lg-2 text-center mb-5 mb-lg-0">
+                        <div class="profile-frame">
+                            <div class="profile-image">
+                                <!-- استبدل هذا الرابط بصورتك الشخصية -->
+                                <img src="./assets/images/image-principale.jpeg" alt="El Ghalia Essaguia"
+                                    class="profile-photo">
+                            </div>
+                            <div class="floating-heart">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="hero-content">
+                            <span class="greeting">💜 Bienvenue sur mon portfolio💜</span>
+                            <h1 class="display-3 fw-bold mb-3">El Ghalia <span class="text-highlight">Essaguia</span>
+                            </h1>
+                            <p class="fs-4 mb-3">Développeuse web junior</p>
+                            <p class="lead mb-4">
+                                Étudiante en BTS DAI, passionnée par la création d'expériences web
+                                élégantes et intuitives.
+                            </p>
+                            <div class="hero-buttons">
+                                <a href="#contact" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-paper-plane me-2"></i>Me contacter
+                                </a>
+                                <a href="#projects" class="btn btn-outline btn-lg">
+                                    <i class="fas fa-laptop-code me-2"></i>Découvrir mes projets
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-decoration">
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+                <div class="circle circle-3"></div>
+            </div>
+        </section>
+
+        <!-- Section À propos -->
+        <section id="about" class="py-5">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <span class="section-subtitle">Qui suis-je ?</span>
+                    <h2 class="section-title">À propos de moi</h2>
+                    <div class="title-decoration">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="about-card">
+                            <div class="row g-0">
+                                <div class="col-md-5 about-image">
+                                    <div class="about-image-content">
+                                        <i class="fas fa-code"></i>
+                                        <h4>BTS DAI</h4>
+                                        <p>2026</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 about-text">
+                                    <h3>Étudiante en <span class="text-highlight">développement web</span></h3>
+                                    <p class="lead">
+                                        En classes préparatoires pour l'obtention d'un
+                                        <strong>Brevet de Technicien Supérieur - Développement d'Applications
+                                            Informatiques</strong>
+                                        au Lycée Lisan Al-Din Ibn Al-Khatib.
+                                    </p>
+                                    <p>
+                                        Passionnée par le développement web, je suis actuellement à la recherche d'un
+                                        stage
+                                        pour le mois de mai 2026 afin de mettre en pratique mes compétences et
+                                        d'apprendre
+                                        aux côtés de professionnels expérimentés.
+                                    </p>
+                                    <div class="info-grid">
+                                        <div class="info-item">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <div>
+                                                <small>Localisation</small>
+                                                <p>Laâyoune, Maroc</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-calendar-alt"></i>
+                                            <div>
+                                                <small>Disponibilité</small>
+                                                <p>Mai 2024</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-phone"></i>
+                                            <div>
+                                                <small>Téléphone</small>
+                                                <p>0613564375</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-envelope"></i>
+                                            <div>
+                                                <small>Email</small>
+                                                <p>elghaessag@gmail.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>Mes compétences</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="skill-card">
+                            <div class="skill-icon-wrapper">
+                                <i class="fab fa-html5 skill-icon"></i>
+                            </div>
+                            <h4>HTML5</h4>
+                            <p>Structure sémantique, SEO, accessibilité</p>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="skill-card">
+                            <div class="skill-icon-wrapper">
+                                <i class="fab fa-css3-alt skill-icon"></i>
+                            </div>
+                            <h4>CSS3</h4>
+                            <p>Flexbox, Grid, animations, responsive</p>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="skill-card">
+                            <div class="skill-icon-wrapper">
+                                <i class="fab fa-js skill-icon"></i>
+                            </div>
+                            <h4>JavaScript</h4>
+                            <p>ES6, DOM manipulation, API</p>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="skill-card">
+                            <div class="skill-icon-wrapper">
+                                <i class="fab fa-bootstrap skill-icon"></i>
+                            </div>
+                            <h4>Bootstrap 5</h4>
+                            <p>Grille, composants, personnalisation</p>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="skill-card">
+                            <div class="skill-icon-wrapper">
+                                <i class="fab fa-git-alt skill-icon"></i>
+                            </div>
+                            <h4>Git & GitHub</h4>
+                            <p>Versioning, collaboration</p>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="skill-card">
+                            <div class="skill-icon-wrapper">
+                                <i class="fas fa-database skill-icon"></i>
+                            </div>
+                            <h4>SQL / PHP</h4>
+                            <p>Bases de données, PHP procédural</p>
+                            <div class="skill-level">
+                                <div class="skill-level-fill" style="width: 50%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets - avec images et liens GitHub -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>Mes projets</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Projet 1 - Portfolio personnel -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/images/portfolioimage.jpeg"
+                                alt="Portfolio personnel">
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio personnel</h3>
+                            <p>Création d'un portfolio responsive avec HTML, CSS et Bootstrap. Design moderne et épuré
+                                aux nuances violettes.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/elghaliaessaguia-ship-it/portfolio-elghalia" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Voir
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 2 - Site e-commerce -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=600&h=400&fit=crop"
+                                alt="Site e-commerce">
+                        </div>
+                        <div class="project-content">
+                            <h3>Site e-commerce</h3>
+                            <p>Maquette de site e-commerce avec Bootstrap. Interface utilisateur intuitive et
+                                complètement responsive.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/elghalia/ecommerce" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Voir
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 3 - Landing page -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+                                alt="Landing page">
+                        </div>
+                        <div class="project-content">
+                            <h3>Landing page pour application mobile</h3>
+                            <p>Landing page moderne pour une application mobile. Design épuré et appels à l'action
+                                stratégiquement placés.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/elghalia/landing-page" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Voir
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="py-5 bg-light">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <span class="section-subtitle">Restons en contact</span>
+                    <h2 class="section-title">Me contacter</h2>
+                    <div class="title-decoration">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="contact-card">
+                            <form class="contact-form">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="nom" class="form-label">
+                                                <i class="fas fa-user me-2"></i>Nom complet
+                                            </label>
+                                            <input type="text" class="form-control" id="nom" placeholder="Votre nom"
+                                                required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="email" class="form-label">
+                                                <i class="fas fa-envelope me-2"></i>Email
+                                            </label>
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="votre@email.com" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label for="sujet" class="form-label">
+                                                <i class="fas fa-tag me-2"></i>Sujet
+                                            </label>
+                                            <input type="text" class="form-control" id="sujet"
+                                                placeholder="Objet de votre message" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label for="message" class="form-label">
+                                                <i class="fas fa-comment me-2"></i>Message</label>
+                                            <textarea class="form-control" id="message" rows="5"
+                                                placeholder="Votre message..." required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg px-5">
+                                            <i class="fas fa-paper-plane me-2"></i>Envoyer
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="footer-info">
+                            <h4>El Ghalia Essaguia</h4>
+                            <p>Étudiante en BTS DAI<br>à la recherche d'un stage en mai 2026</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="footer-social">
+                            <h5>Suivez-moi</h5>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/el-ghalia-essaguia-a7550b3ba?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://github.com/elghaliaessaguia-ship-it" class="social-link" target="_blank"><i
+                                        class="fab fa-github"></i></a>
+                                <a href="https://x.com/EEssaguia36100" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/lg_______ss20?igsh=MXRqdXlsZGRkOGZzdg==" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-contact">
+                            <h5>Contact</h5>
+                            <p>
+                                <i class="fas fa-envelope me-2"></i>elghaessag@gmail.com<br>
+                                <i class="fas fa-phone me-2"></i>0613564375<br>
+                                <i class="fas fa-map-marker-alt me-2"></i>Laâyoune, Maroc
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="mb-0">&copy; 2026 El Ghalia Essaguia. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (uniquement pour le menu burger) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
